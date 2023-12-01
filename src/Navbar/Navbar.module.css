@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    font-size:xx-large;
+    font-weight: 300px;
+    
+  }
+  
+ 
+  .firstLetter {
+    background: linear-gradient(90deg, rgb(78, 19, 117), rgb(189, 100, 170));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .link {
+    color:black;
+    text-decoration: none;
+    
+  }
+  .link:hover {
+    color: rgb(152, 147, 147);
+}
