@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/indent */
 import AboutMe from './aboutMe/aboutMe.tsx'
+import Projects from './proyectos/projects.tsx'
+
 const Home: React.FC = () => {
    return (
       <>
@@ -8,7 +10,7 @@ const Home: React.FC = () => {
          </section>
 
          <section id="my-projects">
-            my projects bla bla
+           <Projects />
          </section>
       </>
 

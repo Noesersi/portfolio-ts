@@ -1,6 +1,5 @@
 body {
     font-family: 'Indie Flower', cursive;
-    background: linear-gradient(90deg, rgb(188, 144, 220), rgb(237, 222, 222)), url('https://img.freepik.com/foto-gratis/vista-papel-arrugado-blanco_1194-7544.jpg?w=826&t=st=1701466128~exp=1701466728~hmac=deffdf8daf61136f58c4f80a809b3f6d2a6ca67c34a9027fe05569adc86dfa82');
     background-size: auto, cover;  
     background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-beige-sucio_53876-124564.jpg?w=826&t=st=1701466634~exp=1701467234~hmac=17bd82f09b9336dc5663936f84eff5eefd9284ee5517345314651fbb0ad02ce5);
 }
