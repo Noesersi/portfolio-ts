@@ -13,7 +13,6 @@ const Navbar: React.FC = () => {
           <a href="#services" className={styles.link}>
             <span className={styles.firstLetter}>S</span>ervices
           </a>
-
         </div>
       </nav>
     </header>

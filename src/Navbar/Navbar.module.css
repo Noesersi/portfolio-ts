@@ -9,7 +9,9 @@
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
+  top:0;
+  width: 100%;
   height: var(--header-height);
   display: flex;
   justify-content:space-around;
@@ -35,3 +37,4 @@
 .link:hover {
   color: rgb(152, 147, 147);
 }
+

@@ -1,0 +1,22 @@
+.tecsBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5rem;
+    gap:6rem;
+  }
+  
+  .title {
+    padding-top: 8rem;
+    display: flex;
+    font-size: xx-large;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  .techImage{
+    width: 100px;
+  }
+  
+  

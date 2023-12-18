@@ -1,11 +1,12 @@
 .projectsBox {
   display: flex;
   align-items: center;
-  justify-content: center;
-
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .title {
+  padding-top: 8rem;
   display: flex;
   font-size: xx-large;
   position: relative;
@@ -14,17 +15,4 @@
 
 }
 
-.title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #a9af6c;
-  transition: width 0.5s ease;
-}
 
-.title:hover::after {
-  width: 100%;
-}
