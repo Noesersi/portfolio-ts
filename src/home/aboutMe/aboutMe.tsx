@@ -12,7 +12,7 @@ const AboutMe: React.FC = () => {
         <img src={Perfil} alt="Foto de perfil" className={styles.profileImage} />
         <div className={styles.description}>
           <p>
-            Results-driven{' '}<RoughNotation type="underline" color="black" show='True'>Full Stack Developer</RoughNotation> with a passion for technology, specialized in crafting impactful projects by using a full stack approach and technologies such as{' '}
+            Results-driven{' '}<RoughNotation type="underline" color="black" show={true}>Full Stack Developer</RoughNotation> with a passion for technology, specialized in crafting impactful projects by using a full stack approach and technologies such as{' '}
             <RoughNotation type="circle" color="black" show={true}>
               JavaScript
             </RoughNotation> and{' '}
