@@ -13,13 +13,13 @@ const AboutMe: React.FC = () => {
         <div className={styles.description}>
           <p>
             Results-driven{' '}<RoughNotation type="underline" color="black" show='True'>Full Stack Developer</RoughNotation> with a passion for technology, specialized in crafting impactful projects by using a full stack approach and technologies such as{' '}
-            <RoughNotation type="circle" color="black" show='True'>
+            <RoughNotation type="circle" color="black" show={true}>
               JavaScript
             </RoughNotation> and{' '}
-            <RoughNotation type="circle" color="black" show='True'>
+            <RoughNotation type="circle" color="black" show={true}>
               Python
             </RoughNotation>.</p> <p> I am particularly enthusiastic about{' '}
-            <RoughNotation type='highlight' color='yellow' show='True'>clean coding practices</RoughNotation>, ensuring that my code is not only functional but also maintainable and easy to understand.
+            <RoughNotation type='highlight' color='yellow' show={true}>clean coding practices</RoughNotation>, ensuring that my code is not only functional but also maintainable and easy to understand.
           </p>
         </div>
 
