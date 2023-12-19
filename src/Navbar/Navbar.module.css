@@ -1,40 +1,35 @@
-.header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: var(--body-color);
-  z-index: var(--z-fixed);
-  transition: box-shadow .4s;
-}
 
-.navbar {
+.navbar { 
   position: fixed;
   top:0;
   width: 100%;
-  height: var(--header-height);
-  display: flex;
+  display: inline-flex;
   justify-content:space-around;
   align-items: center;
+  padding: 5px;
   gap: 30px;
   font-size: large;
   font-weight: 300px;
-
+  z-index: 1000;
+  background-color: rgb(98, 126, 189);
+  border-style:inset
 }
-
-.firstLetter {
-  background: linear-gradient(90deg, rgb(22, 74, 39), rgb(27, 69, 34));
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
 .link {
   color: black;
   text-decoration: none;
-
+  transition: all 0.3s;
+  
 }
 
 .link:hover {
-  color: rgb(152, 147, 147);
+  color: rgb(29, 25, 25);
+  transform: scale(1.2)
 }
 
+.firstLetter {
+  color: rgb(39, 43, 48)
+  
+}
+.link {
+  color:antiquewhite
+}

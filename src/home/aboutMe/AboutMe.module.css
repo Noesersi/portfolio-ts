@@ -15,9 +15,9 @@
 }
 
 .profession{
+  text-align: center;
+  align-items: center;
   font-size: x-large;
-  width: 300px;
-  margin: 0 auto;  
 }
 
 .profileImage {

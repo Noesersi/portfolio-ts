@@ -6,9 +6,9 @@ import { RoughNotation } from 'react-rough-notation'
 const AboutMe: React.FC = () => {
   return (
     <div className={styles.aboutMeContainer}>
-      <h1 className={styles.name} >Noé Ibáñez Torres</h1>
-      <h5 className={styles.profession}>Full Stack Developer</h5>
       <div className={styles.profileContainer}>
+        <h1 className={styles.name} >Noé Ibáñez Torres</h1>
+        <h5 className={styles.profession}>Full Stack Developer</h5>
         <img src={Perfil} alt="Foto de perfil" className={styles.profileImage} />
         <div className={styles.description}>
           <p>
