@@ -12,7 +12,7 @@ const AboutMe: React.FC = () => {
         <img src={Perfil} alt="Foto de perfil" className={styles.profileImage} />
         <div className={styles.description}>
           <p>
-            Results-driven{' '}<RoughNotation type="underline" color="black" show={true}>Full Stack Developer</RoughNotation> with a passion for technology, specialized in crafting impactful projects by using a full stack approach and technologies such as{' '}
+            Results-driven{' '}<RoughNotation type="highlight" color="yellow" show={true}>Full Stack Developer</RoughNotation> with a passion for technology, specialized in crafting impactful projects by using a full stack approach and technologies such as{' '}
             <RoughNotation type="circle" color="black" show={true}>
               JavaScript
             </RoughNotation> and{' '}
@@ -28,7 +28,7 @@ const AboutMe: React.FC = () => {
       <div className={styles.socialLinksContainer}>
         <a href="https://github.com/noesersi" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a>
         <a href="https://linkedin.com/in/noesersi" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
-        <a href="https://drive.google.com/file/d/1porBwjV63w2WQGrEtcm-m17lL-PkpdRe/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><i className="fa-regular fa-file"></i> CV</a>
+        <a href="https://drive.google.com/file/d/19DPfLYW2xSuzLXBiH-kHigHGgeGr4MDY/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><i className="fa-regular fa-file"></i> CV</a>
 
       </div>
     </div>

@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
           description="An interactive web platform centered on card games for effective learning in key subjects such as English, programming, and government
         exam preparation."
           githubLink="https://github.com/Noesersi/ThinkFlash_APP"
-          websiteLink="https://thinkflash.onrender.com/"
+          websiteLink="https://thinkflashreal.onrender.com/"
         />
         <Card
           title="Star Wars Blog"

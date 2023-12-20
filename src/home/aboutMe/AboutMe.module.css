@@ -8,7 +8,7 @@
 }
 .name {
   font-size: 3rem;
-  background: linear-gradient(rgb(11, 16, 12),rgb(34, 93, 188));
+  background: linear-gradient(rgb(11, 16, 12),rgb(20, 27, 39));
   -webkit-background-clip: text;
   color: transparent;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
