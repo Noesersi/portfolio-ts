@@ -1,0 +1,10 @@
+.section {
+  margin: 20px;
+  padding-top: 8rem;
+  padding: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}

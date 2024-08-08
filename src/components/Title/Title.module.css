@@ -1,0 +1,9 @@
+.title {
+  display: flex;
+  font-size: xx-large;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  margin-bottom: 5rem;
+}

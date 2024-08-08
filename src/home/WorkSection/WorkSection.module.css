@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1439px) {
+    .container {
+        max-width: 1279px !important;
+        margin: 0 80px !important;
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 959px !important;
+        margin: 0 16px !important;
+        width: auto !important;
+    }
+}
+
+.gradientCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .gradientCards {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card {
+    width: 650px; 
+    height: 460px; 
+    border: 0;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.containerCard {
+    position: relative;
+    border: 2px solid transparent;
+    background: linear-gradient(71deg, #1f1323, #1a171c, #080509);
+    background-clip: padding-box;
+    border-radius: 45px;
+    padding: 20px; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardDescription {
+    padding: 15px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    color: hsla(0, 0%, 100%, 0.739);
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.cardTitle {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: white;
+    letter-spacing: -0.02em;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cardImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(100, 94, 94, 0.3);
+}
+
+.imageAndTitleContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cardPosition{
+    color:aliceblue;
+    font-weight: bold;
+}
+.cardDuration {
+    color:aliceblue;
+    font-weight: bold;
+}
+.cardLink{
+    margin-left: 5px;
+    font-size: 15px;
+    color:aliceblue;
+}

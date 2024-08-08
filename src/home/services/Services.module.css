@@ -4,10 +4,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 5rem;
-    gap:1rem;
+    gap:2rem;
   }
   
   .title {
+    color:aliceblue;
     padding-top: 8rem;
     display: flex;
     font-size: xx-large;

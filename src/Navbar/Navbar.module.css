@@ -10,11 +10,9 @@
   gap: 30px;
   font-size: large;
   font-family: 'Bai Jamjuree', sans-serif;
-
   font-weight: 300px;
   z-index: 1000;
-  background-color: rgb(2, 10, 29);
-  border-style:inset
+  background-color: rgb(33, 33, 33);
 }
 .link {
   color: black;
@@ -22,15 +20,9 @@
   transition: all 0.3s;
   
 }
-
 .link:hover {
-  color: rgb(43, 181, 137);
+  color:  #40c9ff;
   transform: scale(1.2)
-}
-
-.firstLetter {
-  color: rgb(42, 155, 80)
-  
 }
 .link {
   color:antiquewhite

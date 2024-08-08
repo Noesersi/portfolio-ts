@@ -1,17 +1,17 @@
 import styles from './Projects.module.css'
-import ThinkFlash from '../../assets/Logo_2-removebg-preview.png'
+import ThinkFlash from '../../assets/ThinkFlash.png'
 import StarWars from '../../assets/starwars.png'
 import ContactList from '../../assets/ContactList.png'
 import Todos from '../../assets/Todos.png'
-import Card from '../../components/Card/Card'
+import Card from '../../components/Card/card/Card'
+import { Section } from '../../components/Section/Section'
+
 const Projects: React.FC = () => {
   const ThinkFlashLogo = ThinkFlash
   const StarWarsPic = StarWars
   return (
-    <section className={styles.projects}>
-      <h1 className={styles.title}>Projects</h1>
+    <Section title='Projects'>
       <div className={styles.projectsBox}>
-
         <Card
           title="Think Flash"
           technologies={['React', 'CSS', 'HTML', 'Bootstrap', 'Python', 'PostgreSQL', 'Flask']}
@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
           githubLink="https://github.com/Noesersi/StarWarsBlog"
           websiteLink="https://star-wars-blog-jade.vercel.app/"
         />
-         <Card
+        <Card
           title="Contact List"
           technologies={['CSS', 'HTML', 'Bootstrap', 'React', 'Context', 'Hooks', 'Firebase']}
           image={ContactList}
@@ -45,9 +45,8 @@ const Projects: React.FC = () => {
           githubLink="https://github.com/Noesersi/Todolist"
           websiteLink="https://todolist-ten-taupe.vercel.app/"
         />
-
       </div>
-    </section>
+    </Section>
   )
 }
 
