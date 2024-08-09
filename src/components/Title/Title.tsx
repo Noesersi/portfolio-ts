@@ -1,4 +1,4 @@
-import styles from '../title/Title.module.css'
+import styles from './Title.module.css'
 import { RoughNotation } from 'react-rough-notation'
 
 interface TitleProps {
