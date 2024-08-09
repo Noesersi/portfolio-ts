@@ -1,6 +1,8 @@
 import styles from '../Navbar/Navbar.module.css';
 import React, { useState, useEffect } from 'react';
 import Perfil from '../assets/IMG-20200612-WA0021.jpg'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Navbar: React.FC = () => {
   const [showProfilePic, setShowProfilePic] = useState(false);
