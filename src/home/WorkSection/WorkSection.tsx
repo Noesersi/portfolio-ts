@@ -20,7 +20,7 @@ const cardsContent = [
         position: "Full Stack Developer Mentor and Teacher Assistant",
         duration: "12/02/2024 - Present",
         description: `I offer personalized support for students mastering Full Stack programming, covering key skills and technologies like HTML, CSS, React, JavaScript, Python, and MySQL.
-        I collaborate closely with instructors to provide comprehensive assistance and prepare students for successful careers in technology.`,
+        I collaborate closely as a Teacher Assistant with instructors to provide comprehensive assistance, including grading and correcting students' projects, to prepare them for successful careers in technology. `,
         image: ForGeeks,
         website: "https://4geeksacademy.com"
     }
@@ -38,7 +38,7 @@ export const WorkSection: React.FC = () => {
                                     <div className={styles.cardImage}>
                                         <img src={card.image} className={styles.cardImage} alt={card.title} />
                                     </div>
-                                    <div  className={styles.cardData}>
+                                    <div className={styles.cardData}>
                                         <a href={card.website} className={styles.cardLink} target="_blank" rel="noopener noreferrer"><p className={styles.cardTitle}>{card.title}  <i className="fa-solid fa-arrow-up-right-from-square" ></i></p></a>
                                         <p className={styles.cardPosition}>{card.position}</p>
                                         <p className={styles.cardDuration}>{card.duration}</p>
@@ -50,6 +50,7 @@ export const WorkSection: React.FC = () => {
                     ))}
                 </div>
             </div>
+        
         </Section>
     );
 };
