@@ -38,8 +38,8 @@ export const WorkSection: React.FC = () => {
                                     <div className={styles.cardImage}>
                                         <img src={card.image} className={styles.cardImage} alt={card.title} />
                                     </div>
-                                    <div>
-                                        <p className={styles.cardTitle}>{card.title} <a href={card.website} className={styles.cardLink} target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-arrow-up-right-from-square" ></i></a></p>
+                                    <div  className={styles.cardData}>
+                                        <a href={card.website} className={styles.cardLink} target="_blank" rel="noopener noreferrer"><p className={styles.cardTitle}>{card.title}  <i className="fa-solid fa-arrow-up-right-from-square" ></i></p></a>
                                         <p className={styles.cardPosition}>{card.position}</p>
                                         <p className={styles.cardDuration}>{card.duration}</p>
                                     </div>

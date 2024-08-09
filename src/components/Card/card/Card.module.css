@@ -39,23 +39,6 @@
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
 }
-@media screen and (max-width: 480px) {
-  .card {
-    width: 100%; 
-    height: auto; 
-    padding: 10px;
-  }
-
-  .card::before {
-    width: 100%; 
-    height: 100%;
-    left: 0;
-  }
-
-  .card::after {
-    transform: translate3d(0, 0, 0) scale(0.95);  
-  }
-}
 .heading {
   font-size: 20px;
   text-transform: capitalize;
