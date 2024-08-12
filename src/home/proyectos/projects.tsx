@@ -3,6 +3,8 @@ import ThinkFlash from '../../assets/ThinkFlash.png'
 import StarWars from '../../assets/starwars.png'
 import ContactList from '../../assets/ContactList.png'
 import Todos from '../../assets/Todos.png'
+import HogwartsLibrary from '../../assets/hogwartsLibrary.png'
+
 import Card from '../../components/Card/card/Card'
 import { Section } from '../../components/Section/Section'
 
@@ -21,6 +23,16 @@ const Projects: React.FC = () => {
           githubLink="https://github.com/Noesersi/ThinkFlash_APP"
           websiteLink="https://thinkflashreal.onrender.com/"
         />
+        <Card
+          title="Hogwarts Library"
+          technologies={['React Native', 'NodeJS', 'ExpressJS', 'Expo', 'Firebase']}
+          image={HogwartsLibrary}
+          description='Full-featured CRUD application utilizing modern technologies to deliver a seamless virtual library experience on both iOS and Android devices.'
+          githubLink='https://github.com/Noesersi/HogwartsLibrary'
+          websiteLink="https://hogwarts-library.onrender.com"
+
+        />
+
         <Card
           title="Star Wars Blog"
           technologies={['CSS', 'HTML', 'Bootstrap', 'React', 'Context', 'Hooks']}

@@ -17,7 +17,7 @@ const cardsContent = [
     },
     {
         title: "4Geeks Academy España",
-        position: "Full Stack Developer Mentor and TA",
+        position: "F/S Dev Mentor and TA",
         duration: "12/02/2024 - Present",
         description: `I provide personalized support to students mastering Full Stack programming, focusing on essential skills and technologies such as HTML, CSS, React, JavaScript, Python, and MySQL. \n
         As a Teacher Assistant, I work closely with instructors to offer comprehensive assistance, including grading and providing feedback on student projects, ensuring they are well-prepared for successful careers in the tech industry. \n
