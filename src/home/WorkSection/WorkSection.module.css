@@ -9,12 +9,14 @@
 .card {
     width: 640px;
     height: 410px;
+    
 }
 
 .containerCard {
     display: flex;
     border: 2px solid transparent;
     background: linear-gradient(71deg, #1f1323, #1a171c, #080509);
+    box-shadow: 2px 2px 10px rgba(60, 64, 63, 0.3);
     border-radius: 45px;
     padding: 40px;
     height: 100%;
@@ -25,7 +27,7 @@
 
 .cardDescription {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 28px;
     color: hsla(0, 0%, 100%, 0.739);
     font-size: 14px;
@@ -38,7 +40,7 @@
     font-weight: 600;
     color: white;
     font-style: normal;
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
@@ -75,18 +77,14 @@
         max-width: 100%;
         margin: 0 auto;
         height: fit-content;
+        margin-bottom: 10px;
     }
-
+    
     .containerCard {
         box-sizing: border-box;
         padding: 2rem;
 
     }
-
-    /* .cardImage img {
-        width: 100%; 
-        height: auto;
-    } */
 
     .cardTitle {
         font-size: 1.2rem;

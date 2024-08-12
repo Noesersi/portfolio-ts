@@ -7,7 +7,7 @@ interface TitleProps {
 export const Title: React.FC<TitleProps> = ({ text }) => {
     return (
         <div className={styles.container}>
-            <RoughNotation type='bracket' color='white' brackets={['left', 'right']} show={true}><h1 className={styles.title}>{text}</h1></RoughNotation>
+            <RoughNotation type='bracket' color='white' brackets={['left', 'right']} show={true}  padding={3}><h1 className={styles.title}>{text}</h1></RoughNotation>
         </div>
     )
 }
