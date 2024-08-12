@@ -8,7 +8,7 @@
 
 .card {
     width: 640px;
-    height: 410px;
+    height: 450px;
     
 }
 
@@ -28,7 +28,7 @@
 .cardDescription {
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 24px;
     color: hsla(0, 0%, 100%, 0.739);
     font-size: 14px;
     margin-top: 10px;

@@ -10,7 +10,7 @@ const cardsContent = [
         position: "Full Stack Developer",
         duration: "9/02/2024 - Present",
         description: `My work is focused on working with React Native Expo to create a smooth and engaging user experience in our BubboApp (audiovisiual recommendation platform). 
-        \nIn addition, I have been working closely with our backend team to connect the whole system using AWS Amplify, which allows us to scale and maintain the application efficiently. \n
+        \nIn addition, I have been working closely with our backend team to connect the whole system using AWS Amplify, which allows us to scale and maintain the application efficiently.\n
         We are also implementing a CI/CD system to optimize our development processes. This includes the implementation of end-to-end testing with Detox, ensuring the quality and reliability of our application at all times.`,
         image: Bubbo,
         website: "https://bubbo.app"
@@ -19,9 +19,9 @@ const cardsContent = [
         title: "4Geeks Academy España",
         position: "Full Stack Developer Mentor and TA",
         duration: "12/02/2024 - Present",
-        description: `I offer personalized support for students mastering Full Stack programming, covering key skills and technologies like HTML, CSS, React, JavaScript, Python, and MySQL.
-
-        I collaborate closely as a Teacher Assistant with instructors to provide comprehensive assistance, including grading and correcting students' projects, to prepare them for successful careers in technology. `,
+        description: `I provide personalized support to students mastering Full Stack programming, focusing on essential skills and technologies such as HTML, CSS, React, JavaScript, Python, and MySQL. \n
+        As a Teacher Assistant, I work closely with instructors to offer comprehensive assistance, including grading and providing feedback on student projects, ensuring they are well-prepared for successful careers in the tech industry. \n
+        Additionally, I mentor students through their final projects, offering guidance and advice to help them overcome obstacles and refine their MVP versions.`,
         image: ForGeeks,
         website: "https://4geeksacademy.com"
     }
