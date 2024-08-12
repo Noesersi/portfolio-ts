@@ -7,6 +7,8 @@ import { WorkSection } from './WorkSection/WorkSection.tsx'
 const Home: React.FC = () => {
    return (
       <>
+      <div className=''>
+
          <section id="about-me">
             <AboutMe />
          </section>
@@ -20,6 +22,7 @@ const Home: React.FC = () => {
          <section id="services">
            <Services />
          </section>
+      </div>
       </>
 
    )

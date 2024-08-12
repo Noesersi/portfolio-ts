@@ -31,7 +31,7 @@ export const WorkSection: React.FC = () => {
         <Section title="Work Experience" className="width: '100%', maxWidth: '100%', overflowX: 'hidden'">
             <div className={`${styles.container} row`}>
                 {cardsContent.map((card, index) => (
-                    <div className="col-md-6 col-12 d-flex" key={index}>
+                    <div className="col-md-6 col-12 d-flex mb-5 d-flex justify-content-center" key={index}>
                         <div className={styles.card}>
                             <div className={styles.containerCard}>
                                 <div className={styles.imageAndTitleContainer}>

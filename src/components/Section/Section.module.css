@@ -1,7 +1,10 @@
 .section {
   margin: 20px;
-  padding-top: 8rem;
-  padding: 80px;
+  margin-bottom: 100px;
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+  margin-inline: auto;
 }
 
 .titleContainer {

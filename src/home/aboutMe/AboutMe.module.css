@@ -1,19 +1,21 @@
-.aboutMeContainer {
-  padding-top: 50px;
-  margin: 50px auto;
-  text-align: center;
-  align-items: center;
-  max-width: 70%;
-  box-sizing: border-box;
+.profilePic {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 20px;
 }
-
+.nameContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  width: 100%;
+  overflow-x: hidden;
+}
 .name {
   font-family: 'Bai Jamjuree', sans-serif;
-
   font-size: 3rem;
   color: aliceblue;
-
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .profession {
@@ -43,13 +45,13 @@
 .description {
   font-family: 'Bai Jamjuree', sans-serif;
   background-color: #fffaf0;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0 0 5px 5px rgba(113, 111, 111, 0.149);
   ;
   border-radius: 10px;
   margin-top: 10px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 @media only screen and (max-width: 768px) {
