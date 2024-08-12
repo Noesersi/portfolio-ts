@@ -4,6 +4,9 @@
   font-family: 'Bai Jamjuree', sans-serif;
   text-decoration: none;
   transition: all 0.3s;
+  width: '100%'; 
+  max-width: '100%';
+  overflow-x: 'hidden';
 }
 .navbar .link:hover {
   color: #40c9ff !important;

@@ -28,18 +28,20 @@ const cardsContent = [
 
 export const WorkSection: React.FC = () => {
     return (
-        <Section title="Work Experience">
-            <div className={styles.container}>
-                <div className={styles.gradientCards}>
-                    {cardsContent.map((card, index) => (
-                        <div className={styles.card} key={index}>
+        <Section title="Work Experience" className="width: '100%', maxWidth: '100%', overflowX: 'hidden'">
+            <div className={`${styles.container} row`}>
+                {cardsContent.map((card, index) => (
+                    <div className="col-md-6 col-12 d-flex" key={index}>
+                        <div className={styles.card}>
                             <div className={styles.containerCard}>
                                 <div className={styles.imageAndTitleContainer}>
                                     <div className={styles.cardImage}>
                                         <img src={card.image} className={styles.cardImage} alt={card.title} />
                                     </div>
                                     <div className={styles.cardData}>
-                                        <a href={card.website} className={styles.cardLink} target="_blank" rel="noopener noreferrer"><p className={styles.cardTitle}>{card.title}  <i className="fa-solid fa-arrow-up-right-from-square" ></i></p></a>
+                                        <a href={card.website} className={styles.cardLink} target="_blank" rel="noopener noreferrer">
+                                            <p className={styles.cardTitle}>{card.title}  <i className="fa-solid fa-arrow-up-right-from-square"></i></p>
+                                        </a>
                                         <p className={styles.cardPosition}>{card.position}</p>
                                         <p className={styles.cardDuration}>{card.duration}</p>
                                     </div>
@@ -47,10 +49,9 @@ export const WorkSection: React.FC = () => {
                                 <p className={styles.cardDescription}>{card.description}</p>
                             </div>
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
-        
         </Section>
     );
 };
