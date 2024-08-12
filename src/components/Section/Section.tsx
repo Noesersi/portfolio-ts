@@ -10,7 +10,7 @@ interface SectionProps {
 
 export const Section: React.FC<SectionProps> = ({ children, className, title }) => {
     return (
-        <section className={`${styles.section} ${className || ''}`}>
+        <section className={`${styles.section} ${className || ''} mb-3`}>
             <div className={styles.titleContainer}>
                 <Title text={title} />
             </div>

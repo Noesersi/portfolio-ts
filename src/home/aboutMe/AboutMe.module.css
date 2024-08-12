@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin-top: 150px;
   width: 100%;
   overflow-x: hidden;
@@ -80,4 +81,13 @@
 }
 .iconLink:hover {
   color: #ccc; 
+}
+.CVicon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 2px;
+}
+.CVicon:hover {
+  background-color:  #ccc; 
+  border-radius: 50%;
 }

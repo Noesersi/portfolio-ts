@@ -1,19 +1,28 @@
-.card {
-    width: 650px; 
-    height: 460px; 
-    border: 0;
-    flex-direction: column;
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
+
+.card {
+    width: 640px;
+    height: 410px;
+}
+
 .containerCard {
     display: flex;
     border: 2px solid transparent;
     background: linear-gradient(71deg, #1f1323, #1a171c, #080509);
     border-radius: 45px;
-    padding: 40px; 
-    height: 100%; 
+    padding: 40px;
+    height: 100%;
     flex-direction: column;
     background-clip: padding-box;
+    border: 0
 }
+
 .cardDescription {
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 600;
@@ -23,6 +32,7 @@
     margin-top: 10px;
     text-align: justify;
 }
+
 .cardTitle {
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 600;
@@ -38,20 +48,53 @@
     border-radius: 8px;
     box-shadow: 4px 4px 10px rgba(100, 94, 94, 0.3);
 }
+
 .imageAndTitleContainer {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.cardPosition{
-    color:aliceblue;
+
+.cardPosition {
+    color: aliceblue;
     font-weight: bold;
 }
+
 .cardDuration {
-    color:aliceblue;
+    color: aliceblue;
     font-weight: bold;
 }
-.cardLink{
+
+.cardLink {
     font-size: 15px;
-    color:aliceblue;
+    color: aliceblue;
+}
+
+@media (max-width: 576px) {
+    .mobileCard {
+        max-width: 100%;
+        margin: 0 auto;
+        height: fit-content;
+    }
+
+    .containerCard {
+        box-sizing: border-box;
+        padding: 2rem;
+
+    }
+
+    /* .cardImage img {
+        width: 100%; 
+        height: auto;
+    } */
+
+    .cardTitle {
+        font-size: 1.2rem;
+    }
+
+    .cardDescription {
+        font-size: 1rem;
+      
+        text-align:center;
+    }
 }

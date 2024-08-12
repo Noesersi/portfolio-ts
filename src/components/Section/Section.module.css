@@ -1,12 +1,10 @@
 .section {
-  margin: 20px;
+  margin-top: 20px;
   margin-bottom: 100px;
   padding: 20px;
   width: 100%;
   overflow: hidden;
-  margin-inline: auto;
 }
-
 .titleContainer {
   display: flex;
   justify-content: center;

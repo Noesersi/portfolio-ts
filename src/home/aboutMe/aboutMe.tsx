@@ -3,6 +3,8 @@ import Perfil from '../../assets/IMG-20200612-WA0021.jpg'
 import React from 'react'
 import { RoughNotation } from 'react-rough-notation'
 import { Section } from '../../components/Section/Section'
+import CVicon from '../../assets/icons8-resume-48 (1).png'
+
 
 const AboutMe: React.FC = () => {
   return (
@@ -59,7 +61,8 @@ const AboutMe: React.FC = () => {
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a href="https://drive.google.com/file/d/1AZQnUv31eOS4NNU25fgGhdRM8n1UZfQJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
-            <i className="fa-regular fa-file"></i> CV
+            <img src={CVicon} alt="cv" className={styles.CVicon} />
+
           </a>
         </div>
       </Section >

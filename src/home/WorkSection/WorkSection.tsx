@@ -28,11 +28,11 @@ const cardsContent = [
 
 export const WorkSection: React.FC = () => {
     return (
-        <Section title="Work Experience" className="width: '100%', maxWidth: '100%', overflowX: 'hidden'">
-            <div className={`${styles.container} row`}>
+        <Section title="Work Experience" >
+            <div className={`${styles.container} `}>
                 {cardsContent.map((card, index) => (
-                    <div className="col-md-6 col-12 d-flex mb-5 d-flex justify-content-center" key={index}>
-                        <div className={styles.card}>
+                    <div className="col-md-4 col-12 d-flex justify-content-center" >
+                        <div className={`${styles.card} ${styles.mobileCard} `} key={index}>
                             <div className={styles.containerCard}>
                                 <div className={styles.imageAndTitleContainer}>
                                     <div className={styles.cardImage}>
@@ -49,7 +49,7 @@ export const WorkSection: React.FC = () => {
                                 <p className={styles.cardDescription}>{card.description}</p>
                             </div>
                         </div>
-                    </div>
+                </div>
                 ))}
             </div>
         </Section>
