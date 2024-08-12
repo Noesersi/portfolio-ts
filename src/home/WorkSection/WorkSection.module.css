@@ -32,7 +32,8 @@
     color: hsla(0, 0%, 100%, 0.739);
     font-size: 14px;
     margin-top: 10px;
-    text-align: justify;
+    text-align: justify !important;
+    white-space: pre-line !important;
 }
 
 .cardTitle {
