@@ -89,5 +89,6 @@
 }
 .CVicon:hover {
   background-color:  #ccc; 
-  border-radius: 50%;
+  border-style: groove;
+  
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './StickyBar.module.css';
 import CVicon from '../../assets/icons8-resume-48.png'
+import { CVlink, Email, GithubLink, LinkedinLink } from '../../constants';
 
 const StickyBar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -18,7 +19,7 @@ const StickyBar: React.FC = () => {
         <ul className={styles.stickyList}>
           <li>
             <a
-              href="https://github.com/noesersi"
+              href={GithubLink}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.iconLink}
@@ -28,7 +29,7 @@ const StickyBar: React.FC = () => {
           </li>
           <li>
             <a
-              href="https://linkedin.com/in/noesersi"
+              href={LinkedinLink}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.iconLink}
@@ -38,7 +39,7 @@ const StickyBar: React.FC = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1AZQnUv31eOS4NNU25fgGhdRM8n1UZfQJ/view?usp=sharing"
+              href={CVlink}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.iconLink}
@@ -49,7 +50,7 @@ const StickyBar: React.FC = () => {
           </li>
           <li>
             <a
-              href="mailto:noesersi@gmail.com"
+              href={`mailto:${Email}`}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.iconLink}

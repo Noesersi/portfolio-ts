@@ -4,6 +4,7 @@ import React from 'react'
 import { RoughNotation } from 'react-rough-notation'
 import { Section } from '../../components/Section/Section'
 import CVicon from '../../assets/icons8-resume-48 (1).png'
+import { CVlink, GithubLink, LinkedinLink } from '../../constants'
 
 
 const AboutMe: React.FC = () => {
@@ -54,13 +55,13 @@ const AboutMe: React.FC = () => {
 
 
         <div className={styles.socialLinksContainer}>
-          <a href="https://github.com/noesersi" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+          <a href={GithubLink} target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
             <i className="fa-brands fa-github"></i>
           </a>
-          <a href="https://linkedin.com/in/noesersi" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+          <a href={LinkedinLink} target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://drive.google.com/file/d/1AZQnUv31eOS4NNU25fgGhdRM8n1UZfQJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+          <a href={CVlink} target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
             <img src={CVicon} alt="cv" className={styles.CVicon} />
 
           </a>
