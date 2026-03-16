@@ -2,7 +2,6 @@ import styles from './Projects.module.css'
 import ThinkFlash from '../../assets/ThinkFlash.png'
 import BookChallenge from '../../assets/BookChallenge.png'
 import StarWars from '../../assets/starwars.png'
-import ContactList from '../../assets/ContactList.png'
 import Todos from '../../assets/Todos.png'
 import HogwartsLibrary from '../../assets/hogwartsLibrary.png'
 
