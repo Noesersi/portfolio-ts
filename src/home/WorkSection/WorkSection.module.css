@@ -34,6 +34,9 @@
     margin-top: 10px;
     text-align: justify !important;
     white-space: pre-line !important;
+    padding-top: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .cardTitle {
