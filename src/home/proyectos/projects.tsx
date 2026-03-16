@@ -16,9 +16,9 @@ const Projects: React.FC = () => {
       <div className={styles.projectsBox}>
          <Card
           title="Book Challenge"
-          technologies={['ReactNative', 'Figma', 'Firebase', 'Google Books API', 'iOS', 'Android']}
+          technologies={['ReactNative', 'Figma', 'Firebase', 'iOS', 'Android']}
           image={BookChallenge}
-          description="A mobile application designed to encourage reading by allowing users to set reading goals, track their progress, and discover new books through the Google Books API."
+          description="A mobile application designed to encourage reading by allowing users to set reading goals, track progress, and discover new books."
           githubLink="https://github.com/NITDev94/BookChallenge"
         />
         <Card
