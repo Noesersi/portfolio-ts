@@ -16,40 +16,39 @@ const AboutMe: React.FC = () => {
 
       <Section title='Full Stack Developer'>
         <div className={styles.profilePic}>
-          <img src={Perfil} alt="Foto de perfil" className={styles.profileImage} />
+          <img src={Perfil} alt="Profile photo" className={styles.profileImage} />
         </div>
         <div className={styles.description}>
           <p>
             <RoughNotation type="underline" color="black" padding={0} show={true}>
-              Results-driven
+              Product-oriented
             </RoughNotation>{' '}
-            Full Stack Developer with a passion for technology, specialized in crafting impactful projects by using a full stack approach and technologies such as{' '}
-            <RoughNotation type="circle" color="black" padding={3} show={true}>
-              JavaScript
-            </RoughNotation> and{' '}
-            <RoughNotation type="circle" color="black" padding={4} show={true}>
-              Python
+            Full Stack Developer passionate about transforming ideas into{' '}
+            <RoughNotation type="underline" color="black" padding={0} show={true}>
+              concrete web & mobile applications
             </RoughNotation>.
           </p>
           <p>
-            I am particularly enthusiastic about{' '}
-            <RoughNotation type='highlight' color='violet' multiline={true} show={true}>
-              clean coding practices
-            </RoughNotation>, ensuring that my code is not only functional but also maintainable and easy to understand.
-          </p>
-          <p>
-            Currently, I work as a {' '}
-            <RoughNotation type="highlight" color="lightblue" multiline={true} padding={2} show={true}>
-              Mobile App Full Stack Developer
-            </RoughNotation> {' '}
-            at Bubbo, using technologies such as React Native Expo and AWS.
-          </p>
-          <p>
-            Additionally, I am a{' '}
-            <RoughNotation type="highlight" color="lightblue" multiline={true} padding={2} show={true}>
-              Full Stack Developer Teacher Assistant and Mentor
+            I design comprehensive solutions from{' '}
+            <RoughNotation type='highlight' color='lightblue' multiline={true} show={true}>
+              business logic
             </RoughNotation>{' '}
-            at 4 Geeks Academy, where I assist new developers taking their first steps in the programming world.
+            to{' '}
+            <RoughNotation type='highlight' color='lightblue' multiline={true} show={true}>
+              user experience
+            </RoughNotation>, with special focus on scalability, best practices and{' '}
+            <RoughNotation type="box" color="black" padding={2} show={true}>
+                <span style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>code quality</span>
+            </RoughNotation>.
+          </p>
+          <p>
+            <RoughNotation type="highlight" color="#c3e88d" multiline={true} show={true}>
+              Curious self-taught developer
+            </RoughNotation>{' '}
+            constantly learning new technologies and improving my approach to{' '}
+            <RoughNotation type="underline" color="black" show={true}>
+              product development
+            </RoughNotation>.
           </p>
         </div>
 

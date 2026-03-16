@@ -1,27 +1,43 @@
 import React from 'react';
 import { Section } from "../../components/Section/Section";
 import styles from './WorkSection.module.css';
-import Bubbo from '../../assets/bubboIcon.png';
+import BubboLogo from '../../assets/bubboIcon.png'; 
 import ForGeeks from '../../assets/4geeks.jpg';
+import EsteticalLogo from '../../assets/imago.png';
 
 const cardsContent = [
+   
     {
+        title: "Estetical",
+        position: "Mobile & Web Developer",
+        duration: "2024-Present",
+        description: `Developing a SaaS platform for beauty centers. Key responsibilities include:
+        \n• React Native mobile apps & React web dashboard.
+        \n• Node.js backend with Firebase and Google Cloud.
+        \n• CI/CD, product decisions, and performance optimization.`,
+        image: EsteticalLogo,
+        website: "https://estetical.es"
+    },
+     {
         title: "Bubbo",
         position: "Full Stack Developer",
-        duration: "9/02/2024 - Present",
-        description: `My work is focused on working with React Native Expo to create a smooth and engaging user experience in our BubboApp (audiovisiual recommendation platform). 
-        \nIn addition, I have been working closely with our backend team to connect the whole system using AWS Amplify, which allows us to scale and maintain the application efficiently.\n
-        We are also implementing a CI/CD system to optimize our development processes. This includes the implementation of end-to-end testing with Detox, ensuring the quality and reliability of our application at all times.`,
-        image: Bubbo,
+        duration: "12/2023-9/2024", 
+        description: `Developed and maintained the BubboApp (audiovisiual recommendation platform), focusing on:
+        \n• Creating smooth and engaging user experiences with React Native Expo.
+        \n• Connecting the entire system using AWS Amplify to ensure scalability and efficiency.
+        \n• Implementing a CI/CD system, including end-to-end testing with Detox, to maintain high quality.`,
+        image: BubboLogo,
         website: "https://bubbo.app"
     },
     {
         title: "4Geeks Academy España",
-        position: "F/S Dev Mentor and TA",
-        duration: "12/02/2024 - Present",
-        description: `I provide personalized support to students mastering Full Stack programming, focusing on essential skills and technologies such as HTML, CSS, React, JavaScript, Python, and MySQL. \n
-        As a Teacher Assistant, I work closely with instructors to offer comprehensive assistance, including grading and providing feedback on student projects, ensuring they are well-prepared for successful careers in the tech industry. \n
-        Additionally, I mentor students through their final projects, offering guidance and advice to help them overcome obstacles and refine their MVP versions.`,
+        position: "Senior F/S Mentor",
+        duration: "12/2023-9/2024", 
+        description: `Mentored 50+ students in Full Stack development, covering:
+        \n• React, TypeScript and Python fundamentals.
+        \n• Conducting code reviews and providing architectural guidance for projects.
+        \n• Preparing students for technical interviews through comprehensive prep sessions.
+        \n• Developing internal teaching materials and exercises to enhance the learning experience.`,
         image: ForGeeks,
         website: "https://4geeksacademy.com"
     }
@@ -29,11 +45,11 @@ const cardsContent = [
 
 export const WorkSection: React.FC = () => {
     return (
-        <Section title="Work Experience" >
+        <Section title="Professional Experience" > 
             <div className={`${styles.container} `}>
                 {cardsContent.map((card, index) => (
-                    <div className="col-md-4 col-12 d-flex justify-content-center" >
-                        <div className={`${styles.card} ${styles.mobileCard} `} key={index}>
+                    <div className="col-md-4 col-12 d-flex justify-content-center" key={index}>
+                        <div className={`${styles.card} ${styles.mobileCard} `}>
                             <div className={styles.containerCard}>
                                 <div className={styles.imageAndTitleContainer}>
                                     <div className={styles.cardImage}>
@@ -44,17 +60,16 @@ export const WorkSection: React.FC = () => {
                                             <p className={styles.cardTitle}>{card.title}  <i className="fa-solid fa-arrow-up-right-from-square"></i></p>
                                         </a>
                                         <p className={styles.cardPosition}>{card.position}</p>
-                                        <p className={styles.cardDuration}>{card.duration}</p>
+                                        <p className={styles.cardDuration}>{card.duration && `(${card.duration})`}</p>
                                     </div>
                                 </div>
                                 <p className={styles.cardDescription}>{card.description}</p>
                             </div>
                         </div>
-                </div>
+                    </div>
                 ))}
             </div>
         </Section>
     );
 };
 
-export default WorkSection;
