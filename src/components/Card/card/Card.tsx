@@ -36,12 +36,16 @@ const Card: React.FC<CardProps> = ({
           ))}
         </div>
       </div> <div className={styles.cardLinks}>
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
-          <img src={github} width="24px" height="24px" />
-        </a>
-        <a href={websiteLink} target="_blank" rel="noopener noreferrer">
-          <img src={websiteLogo} width="24px" height="24px" />
-        </a>
+        {githubLink && (
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">
+            <img src={github} width="24px" height="24px" alt={`${title} GitHub repository`} />
+          </a>
+        )}
+        {websiteLink && (
+          <a href={websiteLink} target="_blank" rel="noopener noreferrer">
+            <img src={websiteLogo} width="24px" height="24px" alt={`${title} website`} />
+          </a>
+        )}
       </div>
     </div>
   )

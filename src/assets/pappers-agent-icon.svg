@@ -1,0 +1,54 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">PappersAgent icon</title>
+<desc id="desc">An icon showing a Telegram-style paper plane, a spreadsheet card, and a small AI spark.</desc>
+<rect width="256" height="256" rx="56" fill="url(#bg)"/>
+<rect x="22" y="22" width="212" height="212" rx="44" fill="url(#panel)" stroke="#93C5FD" stroke-opacity="0.18"/>
+
+<g filter="url(#shadow)">
+  <circle cx="96" cy="132" r="54" fill="#2563EB"/>
+  <path d="M67 133.2L124.3 107.1C128.7 105.1 133.5 108.8 132.8 113.5L124.5 168.4C123.8 173.1 117.9 174.8 114.6 171.5L100.8 157.8L89.7 165.8C86.1 168.4 81.1 166.1 80.9 161.7L80.1 149.8L110.9 124.6L73.9 144.7C70.1 146.8 65.6 143.9 65.9 139.6L66.2 134.5C66.3 133.8 66.6 133.4 67 133.2Z" fill="white"/>
+</g>
+
+<g filter="url(#shadowSoft)">
+  <rect x="128" y="68" width="64" height="84" rx="16" fill="#EFF6FF"/>
+  <rect x="141" y="84" width="15" height="11" rx="3.5" fill="#60A5FA"/>
+  <rect x="163" y="84" width="15" height="11" rx="3.5" fill="#2563EB"/>
+  <rect x="141" y="101" width="15" height="11" rx="3.5" fill="#2563EB"/>
+  <rect x="163" y="101" width="15" height="11" rx="3.5" fill="#60A5FA"/>
+  <rect x="141" y="118" width="37" height="8" rx="3" fill="#93C5FD"/>
+  <rect x="141" y="132" width="28" height="8" rx="3" fill="#BFDBFE"/>
+</g>
+
+<path d="M184 182C194 182 202 174 202 164C202 174 210 182 220 182C210 182 202 190 202 200C202 190 194 182 184 182Z" fill="#FDE68A"/>
+
+<defs>
+  <linearGradient id="bg" x1="20" y1="18" x2="226" y2="236" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0F172A"/>
+    <stop offset="1" stop-color="#1D4ED8"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="35" y1="29" x2="214" y2="223" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#172554" stop-opacity="0.82"/>
+    <stop offset="1" stop-color="#0F172A" stop-opacity="0.62"/>
+  </linearGradient>
+  <filter id="shadow" x="34" y="74" width="132" height="132" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+    <feOffset dy="10"/>
+    <feGaussianBlur stdDeviation="4"/>
+    <feComposite in2="hardAlpha" operator="out"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.0588235 0 0 0 0 0.0941176 0 0 0 0 0.231373 0 0 0 0.32 0"/>
+    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+  </filter>
+  <filter id="shadowSoft" x="118" y="62" width="84" height="104" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+    <feOffset dy="4"/>
+    <feGaussianBlur stdDeviation="5"/>
+    <feComposite in2="hardAlpha" operator="out"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.0588235 0 0 0 0 0.0941176 0 0 0 0 0.231373 0 0 0 0.22 0"/>
+    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+  </filter>
+</defs>
+</svg>

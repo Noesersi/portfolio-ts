@@ -1,7 +1,6 @@
 import styles from '../aboutMe/AboutMe.module.css'
 import Perfil from '../../assets/IMG-20200612-WA0021.jpg'
 import React from 'react'
-import { RoughNotation } from 'react-rough-notation'
 import { Section } from '../../components/Section/Section'
 import CVicon from '../../assets/icons8-resume-48 (1).png'
 import { CVlink, GithubLink, LinkedinLink } from '../../constants'
@@ -20,35 +19,13 @@ const AboutMe: React.FC = () => {
         </div>
         <div className={styles.description}>
           <p>
-            <RoughNotation type="underline" color="black" padding={0} show={true}>
-              Product-oriented
-            </RoughNotation>{' '}
-            Full Stack Developer passionate about transforming ideas into{' '}
-            <RoughNotation type="underline" color="black" padding={0} show={true}>
-              concrete web & mobile applications
-            </RoughNotation>.
+            I enjoy building products that people actually use.
           </p>
           <p>
-            I design comprehensive solutions from{' '}
-            <RoughNotation type='highlight' color='lightblue' multiline={true} show={true}>
-              business logic
-            </RoughNotation>{' '}
-            to{' '}
-            <RoughNotation type='highlight' color='lightblue' multiline={true} show={true}>
-              user experience
-            </RoughNotation>, with special focus on scalability, best practices and{' '}
-            <RoughNotation type="box" color="black" padding={2} show={true}>
-                <span style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>code quality</span>
-            </RoughNotation>.
+            Over the past few years I've been working across the full software lifecycle, from designing new features and backend services to shipping mobile applications used daily by thousands of users. Today I lead the technical development of a React Native application, making architectural decisions, improving development workflows and helping the product evolve without losing sight of code quality and maintainability.
           </p>
           <p>
-            <RoughNotation type="highlight" color="#c3e88d" multiline={true} show={true}>
-              Curious self-taught developer
-            </RoughNotation>{' '}
-            constantly learning new technologies and improving my approach to{' '}
-            <RoughNotation type="underline" color="black" show={true}>
-              product development
-            </RoughNotation>.
+            What motivates me most is solving real problems, learning continuously and building software that remains simple, reliable and enjoyable to work on.
           </p>
         </div>
 

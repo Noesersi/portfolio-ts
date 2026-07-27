@@ -1,19 +1,32 @@
 import styles from './Projects.module.css'
 import ThinkFlash from '../../assets/ThinkFlash.png'
 import BookChallenge from '../../assets/BookChallenge.png'
-import StarWars from '../../assets/starwars.png'
-import Todos from '../../assets/Todos.png'
 import HogwartsLibrary from '../../assets/hogwartsLibrary.png'
+import PappersAgent from '../../assets/pappers-agent-icon.svg'
+import SuperContext from '../../assets/supercontext-brain.svg'
 
 import Card from '../../components/Card/card/Card'
 import { Section } from '../../components/Section/Section'
 
 const Projects: React.FC = () => {
   const ThinkFlashLogo = ThinkFlash
-  const StarWarsPic = StarWars
   return (
     <Section title='Projects'>
       <div className={styles.projectsBox}>
+        <Card
+          title="PappersAgent"
+          technologies={['TypeScript', 'Node.js', 'Telegraf', 'Pappers API', 'ExcelJS', 'LLMs']}
+          image={PappersAgent}
+          description="Telegram-based AI agent for company prospecting, analysis and Excel exports."
+          githubLink="https://github.com/NITDev94/papperAgent"
+        />
+        <Card
+          title="superContext"
+          technologies={['Python', 'ChromaDB', 'Ollama', 'CLI', 'RAG', 'Watchdog']}
+          image={SuperContext}
+          description="Local semantic memory layer for AI coding agents, with search, project memory and impact analysis."
+          githubLink="https://github.com/NITDev94/superContext"
+        />
          <Card
           title="Book Challenge"
           technologies={['ReactNative', 'Figma', 'Firebase', 'iOS', 'Android']}
@@ -40,22 +53,6 @@ const Projects: React.FC = () => {
 
         />
 
-        <Card
-          title="Star Wars Blog"
-          technologies={['CSS', 'HTML', 'Bootstrap', 'React', 'Context', 'Hooks']}
-          image={StarWarsPic}
-          description="A Star Wars blog where users can view planets, characters and starships from the Star Wars universe. Information is loaded from an API."
-          githubLink="https://github.com/NITDev94/StarWarsBlog"
-          websiteLink="https://star-wars-blog-jade.vercel.app/"
-        />
-        <Card
-          title="Todo List"
-          technologies={['CSS', 'HTML', 'Bootstrap', 'React', 'Context', 'Hooks', 'Firebase']}
-          image={Todos}
-          description="Todo List where users can add and delete todo's while the colors change randomly as you add new todo's that are saved in Firebase."
-          githubLink="https://github.com/NITDev94/Todolist"
-          websiteLink="https://todolist-ten-taupe.vercel.app/"
-        />
       </div>
     </Section>
   )

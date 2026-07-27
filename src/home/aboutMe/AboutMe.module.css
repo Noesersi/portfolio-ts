@@ -55,6 +55,15 @@
   margin-right: 30%;
 }
 
+.description p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.description p:last-child {
+  margin-bottom: 0;
+}
+
 @media only screen and (max-width: 768px) {
   .description {
     margin-left: 0;
