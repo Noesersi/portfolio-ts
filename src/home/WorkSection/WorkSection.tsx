@@ -11,10 +11,10 @@ const cardsContent = [
         title: "Estetical",
         position: "Mobile & Web Developer",
         duration: "2024-Present",
-        description: `Developing a SaaS platform for beauty centers. Key responsibilities include:
-        \n• React Native mobile apps & React web dashboard.
-        \n• Node.js backend with Firebase and Google Cloud.
-        \n• CI/CD, product decisions, and performance optimization.`,
+        description: `Building a SaaS platform used by 400+ beauty centers and 60k+ users.
+        \n• Leading React Native apps, with native layers in Swift, Kotlin and Gradle.
+        \n• Shipping full stack features across React, Node.js, Python, Firebase and GCP.
+        \n• Driving CI/CD, automated testing, architecture decisions and Stripe-based flows.`,
         image: EsteticalLogo,
         website: "https://estetical.es"
     },
@@ -22,10 +22,10 @@ const cardsContent = [
         title: "Bubbo",
         position: "Full Stack Developer",
         duration: "12/2023-9/2024", 
-        description: `Developed and maintained the BubboApp (audiovisiual recommendation platform), focusing on:
-        \n• Creating smooth and engaging user experiences with React Native Expo.
-        \n• Connecting the entire system using AWS Amplify to ensure scalability and efficiency.
-        \n• Implementing a CI/CD system, including end-to-end testing with Detox, to maintain high quality.`,
+        description: `Built the mobile app of an AI-powered audiovisual platform with 50k+ users.
+        \n• Developed the React Native Expo app for iOS and Android.
+        \n• Integrated scalable backend services on AWS and mobile subscriptions with RevenueCat.
+        \n• Strengthened quality with E2E testing, Git hooks, CI/CD and automated deployments.`,
         image: BubboLogo,
         website: "https://bubbo.app"
     },
@@ -33,11 +33,10 @@ const cardsContent = [
         title: "4Geeks Academy España",
         position: "Senior F/S Mentor",
         duration: "12/2023-9/2024", 
-        description: `Mentored 50+ students in Full Stack development, covering:
-        \n• React, TypeScript and Python fundamentals.
-        \n• Conducting code reviews and providing architectural guidance for projects.
-        \n• Preparing students for technical interviews through comprehensive prep sessions.
-        \n• Developing internal teaching materials and exercises to enhance the learning experience.`,
+        description: `Mentored 50+ students in full stack development and software quality.
+        \n• Taught React, JavaScript, Python and database fundamentals.
+        \n• Led code reviews, project guidance and clean code best practices.
+        \n• Created internal learning materials and interview preparation sessions.`,
         image: ForGeeks,
         website: "https://4geeksacademy.com"
     }
@@ -72,4 +71,3 @@ export const WorkSection: React.FC = () => {
         </Section>
     );
 };
-
